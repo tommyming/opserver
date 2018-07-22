@@ -2,46 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95c39e3-0ae0-4ad3-9703-ddabb525b483" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/Advanced.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/Equipment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/Others.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/Questions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/RPG/RPG.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/RedWhite/CommandBlockVersion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/RedWhite/RWGamemode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/RedWhite/RWIndex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/RedWhite/RWMaps.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/RedWhite/RWUpdate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/RedWhite/Winners.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/ServerList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/Servers/OPCreative.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/Servers/OPGameBox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/Servers/OPKingdoms+.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/scripts/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/scripts/jquery.backtotop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/scripts/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/scripts/jquery.mobilemenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/styles/fontawesome-4.6.3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/styles/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/styles/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/styles/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/styles/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/styles/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/styles/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/styles/fonts/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/styles/framework.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/styles/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/styles/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/styles/signin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/opserver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/opserver.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Servers/OPFactions+.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Activities/ActivityIndex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Servers/OPSkyblock+" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Servers/OPSurvival+.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Servers/OPSurvival+.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Servers/OPSurvival+.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/basic-grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/full-width.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/sidebar-left.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/sidebar-right.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/sponsor.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,53 +27,7 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="174" column="61" selection-start-line="174" selection-start-column="61" selection-end-line="174" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActivityIndex.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/Activities/ActivityIndex.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OPSurvival+.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/Servers/OPSurvival+.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="231" column="14" lean-forward="true" selection-start-line="231" selection-start-column="14" selection-end-line="231" selection-end-column="14" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AboutUs.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/AboutUs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="91" column="97" lean-forward="true" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="97" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -212,7 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,10 +161,17 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="Activities" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="opserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opserver" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Servers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,16 +246,16 @@
       <workItem from="1522737627615" duration="596000" />
       <workItem from="1523357063725" duration="420000" />
       <workItem from="1532137136934" duration="3778000" />
-      <workItem from="1532225371232" duration="10198000" />
+      <workItem from="1532225371232" duration="10520000" />
+      <workItem from="1532258211270" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104388000" />
+    <option name="totallyTimeSpent" value="105309000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1234375" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -344,9 +271,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,10 +406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="85" column="49" selection-start-line="85" selection-start-column="49" selection-end-line="85" selection-end-column="49" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#article#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#article#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -627,17 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="91" column="97" lean-forward="true" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="97" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="174" column="61" selection-start-line="174" selection-start-column="61" selection-end-line="174" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -648,17 +560,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Servers/OPSurvival+.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="231" column="14" lean-forward="true" selection-start-line="231" selection-start-column="14" selection-end-line="231" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="456">
+          <caret line="174" column="61" selection-start-line="174" selection-start-column="61" selection-end-line="174" selection-end-column="61" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Servers/OPSurvival+.html" />
   </component>
 </project>
