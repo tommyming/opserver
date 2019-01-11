@@ -1,513 +1,333 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" href="img/favicon.png" type="image/png">
-        <title>Force Magazine</title>
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="vendors/linericon/style.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
-        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-        <link rel="stylesheet" href="vendors/animate-css/animate.css">
-        <link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.css">
-        <!-- main css -->
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-    </head>
-    <body>
-        
-        <!--================Header Menu Area =================-->
-        <header class="header_area">
-            <div class="top_menu">
-            	<div class="container">
-            		<div class="float-left">
-						<a href="#">Wednesday, March 14, 2018</a>
-					</div>
-					<div class="float-right">
-						<ul class="list header_social">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-							<li><a href="#"><i class="fa fa-behance"></i></a></li>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123807502-1"></script>
+	<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-123807502-1');
+	</script>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-6669478372219421",
+            enable_page_level_ads: true
+        });
+	</script>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>Kingdoms+</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<link rel="stylesheet" href="vendors/animate-css/animate.css">
+	<link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link href="./styles/layout.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<!--================Header Menu Area =================-->
+<header class="header_area">
+	<div class="top_menu">
+		<div class="container">
+			<div class="float-left">
+				<a id="datetime"></a>
+				<script>
+                    var span = document.getElementById('datetime');
+
+                    function time() {
+                        var d = new Date();
+                        var s = d.getSeconds();
+                        var m = d.getMinutes();
+                        var h = d.getHours();
+                        var M = d.getMonth();
+                        var D = d.getDay();
+                        span.textContent = D + "/" + M + " " + h + ":" + m + ":" + s;
+                    }
+
+                    setInterval(time, 1000);
+				</script>
+			</div>
+			<div class="float-right">
+				<ul class="list header_social">
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+					<li><a href="#"><i class="fa fa-behance"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="logo_part">
+		<div class="container">
+			<div class="float-left">
+				<a class="logo" href="index.html"><img src="img/logo.png" alt=""></a>
+			</div>
+			<div class="float-right">
+				<div class="header_magazin">
+					<img src="img/header-magazin.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main_menu">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container">
+				<div class="container_inner">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav">
+							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">類別</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">所有文章</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">聯絡我們</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right ml-auto">
+							<li class="nav-item"><a href="#" class="search"><i class="lnr lnr-magnifier"></i></a></li>
 						</ul>
 					</div>
-            	</div>
-            </div>
-            <div class="logo_part">
-            	<div class="container">
-            		<div class="float-left">
-						<a class="logo" href="#"><img src="img/logo.png" alt=""></a>
-					</div>
-					<div class="float-right">
-						<div class="header_magazin">
-							<img src="img/header-magazin.png" alt="">
-						</div>
-					</div>
-            	</div>
-            </div>
-			<div class="main_menu">
-				<nav class="navbar navbar-expand-lg navbar-light">
-					<div class="container">
-						<div class="container_inner">
-							<!-- Brand and toggle get grouped for better mobile display -->
-							<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
-							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							<!-- Collect the nav links, forms, and other content for toggling -->
-							<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-								<ul class="nav navbar-nav menu_nav">
-									<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> 
-									<li class="nav-item active"><a class="nav-link" href="category.html">Category</a></li>
-									<li class="nav-item"><a class="nav-link" href="archive.html">Archive</a></li>
-									<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-									<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-								</ul>
-								<ul class="nav navbar-nav navbar-right ml-auto">
-									<li class="nav-item"><a href="#" class="search"><i class="lnr lnr-magnifier"></i></a></li>
-								</ul>
-							</div> 
-						</div>
-					</div>
-				</nav>
+				</div>
 			</div>
-        </header>
-        <!--================Header Menu Area =================-->
-        <!--================Home Banner Area =================-->
-        <section class="banner_area">
-            <div class="banner_inner d-flex align-items-center">
-            	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
-				<div class="container">
-					<div class="banner_content text-center">
-						<h2>News Details</h2>
-						<div class="page_link">
-							<a href="index.html">Home</a>
-							<a href="news-details.html">News Details</a>
+		</nav>
+	</div>
+</header>
+<!--================Header Menu Area =================-->
+<!--================Home Banner Area =================-->
+<section class="banner_area">
+	<div class="banner_inner d-flex align-items-center">
+		<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+		<div class="container">
+			<div class="banner_content text-center">
+				<h2>文章</h2>
+				<div class="page_link">
+					<a href="index.html">Home</a>
+					<a href="#">文章</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--================End Home Banner Area =================-->
+<!--================News Area =================-->
+<section class="news_area single-post-area p_100">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="main_blog_details">
+					<img class="img-fluid" src="img/features/kingdomlandscape.jpg" alt="">
+					<a href="#"><h4>職業系統及屬性介紹 <br /> 全新的職業功能，到底對王國有甚麼變化？</h4></a>
+					<div class="user_details">
+						<div class="float-left">
+							<a href="#">王國</a>
+							<a href="#">遊記</a>
+						</div>
+						<div class="float-right">
+							<div class="media">
+								<div class="media-body">
+									<h5>Tommy123</h5>
+									<p>15 Aug, 2018 4:32 am</p>
+								</div>
+							</div> <!-- ======== 農民                平民                   貴族 -->
+ 						</div>
+					</div>
+					<p>職業系統介紹</p>
+					<p>玩家可以一開始選擇任何職業。(除了騎士，男爵，國王)</p>
+					<blockquote class="blockquote">
+						<p class="mb-1">農民職業： <br /> (1) 農夫 : 農民，可以走在農田，自動補種作物，骨粉獎勵。 <br /> 升級物品： 乾草，種子，南瓜種，小麥，西瓜種子，可可豆，甘蔗，馬鈴薯，甜菜根及種子。 <br />特殊效果：農作物不會在寒冷地區及沙漠中生長，如果距離海平面超過七格或 Y>= 156， 距離海平面一格則生長很快。<br /> 屬性自動分配方向 : 力量/耐力 優先</p>
+						<p class="mb-1">(2) 樵夫 : 農民，砍樹。 <br /> 升級物品：砍伐樹木。 <br /> 特殊效果：樹木可以根據運氣提供雙倍效果。砍樹時，有時會修理你的斧頭。<br /> 屬性自動分配方向 : 力量/耐力 優先</p>
+						<p class="mb-1">(3) 獵人 : 農民，獵殺動物。 <br /> 升級物品： 豬肉，生牛肉，生雞肉，羊肉，皮革，兔腳，兔皮，墨水袋 <br /> 特殊效果： 從殺死動物可獲得雙倍EXP。 <br />  屬性自動分配方向 : 速度/耐力 優先</p>
+						<p class="mb-1">(4) 礦工 : 農民，挖礦。 <br /> 升級物品：煤炭，煤磚，鐵錠，鐵磚，鐵礦，金錠，金磚，金礦，綠寶石，綠寶石磚，鑽石，鑽石磚，青金石磚，石英磚，石英，青金石 <br /> 特殊效果：礦石在開採時自動變成錠，運氣好可以得到雙倍效果。 <br /> 屬性自動分配方向 :力量/運氣 優先</p>
+						<p class="mb-1">(5) 廚師 : 農民，煮菜。 <br /> 升級物品：烤牛肉，烤雞肉，烤魚，烤羊肉，烤兔肉，烤土豆，烤豬肉，餅乾，蛋糕，兔子燉肉，蘑菇湯，南瓜派，甜菜根湯 <br /> 特殊效果：在爐中烹飪的食物在食用時獲得 速度I 60秒。 <br /> 屬性自動分配方向 : 耐力/運氣 優先 </p>
+						<p class="mb-1">(6) 漁夫 ： 農民，釣魚。 <br /> 升級物品：魚竿，煮熟的魚，生魚 <br /> 特殊效果： 運氣好可以釣到特殊物品，E.g. 鑽石！<br /> 屬性自動分配方向 : 運氣/韌性 優先</p>
+						<p class="mb-1">(7) 建築工人 ： 農民，蓋東西。 <br /> 升級物品：建築用石磚等。建立在王國土地上時獲得的Exp更多。注意：砂岩不給Exp。 <br /> 屬性自動分配方向 : 力量/耐力 優先</p>
+						<p class="mb-1">(8) 牧羊人 ： 農民，放養動物。 <br /> 升級物品：生雞肉，生牛肉，皮革，豬肉，兔皮，兔腳，羊毛，羊肉，雞蛋 <br /> 特殊效果： 通過剪羊毛可以獲得獎勵物品！ <br /> 屬性自動分配方向 : 韌性/耐力 優先</p>
+						<p class="mb-1">(9) 寫書人 ： 農民，寫書。 <br />升級物品：寫書。寫書太長不會給額外的EXP。對於不是單詞的文本，不會獲得EXP。重複相同的單詞不會給你EXP。 已完成的書，書，書和羽毛筆 <br /> 特殊效果： 使用 /f unenchant 把物品的附魔變成書。 <br /> 屬性自動分配方向 : 韌性/運氣 優先 </p>
+					</blockquote>
+					<p>以上是農民，均有三塊領地。需要完成三個農民職業才可以升至平民。</p>
+					<blockquote class="blockquote">
+						<p class="mb-1">平民職業： <br /> (1) 守衞 ： 平民，守護國土。 <br /> 升級物品： 腐爛的肉，蜘蛛眼，線，骨頭，珍珠。 <br />特殊效果：在王國戰鬥中，守衛獲得10％的傷害抗性，如果玩家在其領土上進行攻擊則非常有用。 <br /> 屬性自動分配方向 : 韌性/力量 優先 </p>
+						<p class="mb-1">(2) 刺客 ： 平民，追捕並暗殺人民。 （不允許創造或領導王國的職業。）有一塊領地 <br /> 特殊效果：刺客能夠比任何其他玩家更好地使用跟踪器。右鍵單擊指南針以打開跟踪器菜單。跟踪玩家需要花錢和時間。跟踪器會使刺客或玩家更接近他們的目標，但他們仍然需要做很多搜索。 <br />屬性自動分配方向 : 速度/運氣 優先 </p>
+						<p class="mb-1">(3) 煉金術士 ： 平民，製作藥水。 <br /> 升級物品：藥水，滯留藥水，飛濺藥水，龍的氣息。 <br /> 屬性自動分配方向 : 耐力/力量 優先 </p>
+						<p class="mb-1">(4) 鐵匠 ： 平民，製作武器，工具和盔甲。 <br /> 特殊效果：在製作鐵匠物品時，可以獲得50％的製作材料。 <br /> 屬性自動分配方向 : 耐力/力量 優先 </p>
+						<p class="mb-1">(5) 醫師 ： 平民，治療玩家。 <br /> 升級物品：金蘋果，金胡蘿蔔。 <br /> 特殊效果：可以製作 1.9 金蘋果。製作金蘋果或金胡蘿蔔時，一半的黃金會返回給玩家。 <br /> 屬性自動分配方向 : 耐力/運氣 優先  </p>
+						<p class="mb-1">(6) 商人 ： 平民，特殊職業。 <br /> 升級物品：在封市場（/f market）購買和出售物品。 /f sell [價錢] 賣東西。當玩家購買你賣的物品時，你將獲得EXP。 <br /> 屬性自動分配方向 : 耐力/運氣 優先 </p>
+					</blockquote>
+					<p>以上是平民，均有六塊領地(除了刺客)。需要完成四個平民職業才可以升至貴族。</p>
+					<blockquote class="blockquote">
+						<p class="mb-1">貴族職業： <br /> (1) 大地主 ： 貴族，守護國土。 <br /> 特殊效果：如果大地主是王國的領導者，土地稅將低於平民或農民是領導者。 如果一個大地主王國的領導者，他們將在用於任何其他王國成員，每小時獲得少量的Exp。 <br /> 屬性自動分配方向 : 韌性/速度 優先  </p>
+						<p class="mb-1">(2) 騎士 ： 貴族，守護國土。 <br /> 特殊效果：如果騎士是王國的領導者，土地稅將低於平民或農民是領導者。 如果騎士是王國的領導者，他們將在用於任何其他王國成員，每小時獲得少量的Exp。 <br /> 屬性自動分配方向 : 韌性/力量 優先 </p>
+						<p class="mb-1">(3) 男爵 ： 貴族，守護國土。 <br /> 特殊效果：如果男爵是王國的領導者，土地稅將低於平民或農民是領導者。 如果男爵是王國的領導者，他們將在用於任何其他王國成員，每小時獲得少量的Exp。<br /> 他們還將獲得每小時他們控制多少土地的exp。如果一個男爵不是他們國王的領袖，他們只能通過殺死他們土地上怪物來賺取exp。如果你不是你王國的領導者，最好停在騎士。 <br /> 屬性自動分配方向 : 全部</p>
+						<p class="mb-1">(4) 國王 ： 貴族，守護國土。 <br /> 特殊效果：如果國王是他們王國的領導者，就不會徵收土地稅。 <br /> 屬性自動分配方向 : 全部 </p>
+					</blockquote>
+					<p>以上是貴族，有10,14,22,30塊領地。需要順序升級。</p>
+				</div>
+				<div class="navigation-area">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-12 nav-left flex-row d-flex justify-content-start align-items-center">
+							<div class="arrow">
+								<a href="details-3.html"><span class="lnr text-white lnr-arrow-left"></span></a>
+							</div>
+							<div class="detials">
+								<p>上一頁</p>
+								<a href="details-3.html"><h6>王國新手上路</h6></a>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-12 nav-right flex-row d-flex justify-content-end align-items-center">
+							<div class="detials">
+								<p>下一頁</p>
+								<a href="#"><h6>待續</h6></a>
+							</div>
+							<div class="arrow">
+								<a href="#"><span class="lnr text-white lnr-arrow-right"></span></a>
+							</div>
 						</div>
 					</div>
 				</div>
-            </div>
-        </section>
-        <!--================End Home Banner Area =================-->
-        <!--================News Area =================-->
-        <section class="news_area single-post-area p_100">
-        	<div class="container">
-        		<div class="row">
-        			<div class="col-lg-8">
-       					<div class="main_blog_details">
-       						<img class="img-fluid" src="img/blog/news-blog.jpg" alt="">
-       						<a href="#"><h4>Cartridge Is Better Than Ever <br /> A Discount Toner</h4></a>
-       						<div class="user_details">
-       							<div class="float-left">
-       								<a href="#">Lifestyle</a>
-       								<a href="#">Gadget</a>
-       							</div>
-       							<div class="float-right">
-       								<div class="media">
-       									<div class="media-body">
-       										<h5>Mark wiens</h5>
-       										<p>12 Dec, 2017 11:21 am</p>
-       									</div>
-       									<div class="d-flex">
-       										<img src="img/blog/user-img.jpg" alt="">
-       									</div>
-       								</div>
-       							</div>
-       						</div>
-       						<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower</p>
-       						<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually sit through a self-imposed MCSE training.</p>
-							<blockquote class="blockquote">
-								<p class="mb-0">MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training.</p>
-							</blockquote>
-							<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower</p>
-							<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower</p>
-      						<div class="news_d_footer">
-      							<a href="#"><i class="lnr lnr lnr-heart"></i>Lily and 4 people like this</a>
-      							<a class="justify-content-center ml-auto" href="#"><i class="lnr lnr lnr-bubble"></i>06 Comments</a>
-      							<div class="news_socail ml-auto">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-youtube-play"></i></a>
-									<a href="#"><i class="fa fa-pinterest"></i></a>
-									<a href="#"><i class="fa fa-rss"></i></a>
+			</div>
+			<div class="col-lg-4">
+				<div class="right_sidebar">
+					<aside class="r_widgets news_widgets">
+						<div class="main_title2">
+							<h2>城中熱話</h2>
+						</div>
+						<div class="choice_item">
+							<img class="img-fluid" src="img/features/kingdomoldback.jpg" alt="">
+							<div class="choice_text">
+								<div class="date">
+									<a class="gad_btn" href="#">文章</a>
+									<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>八月 19, 2018</a>
+									<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>00</a>
 								</div>
-      						</div>
-       					</div>
-       					<div class="navigation-area">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-12 nav-left flex-row d-flex justify-content-start align-items-center">
-                                    <div class="thumb">
-                                        <a href="#"><img class="img-fluid" src="img/blog/prev.jpg" alt=""></a>
-                                    </div>
-                                    <div class="arrow">
-                                        <a href="#"><span class="lnr text-white lnr-arrow-left"></span></a>
-                                    </div>
-                                    <div class="detials">
-                                        <p>Prev Post</p>
-                                        <a href="#"><h4>Space The Final Frontier</h4></a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-12 nav-right flex-row d-flex justify-content-end align-items-center">
-                                    <div class="detials">
-                                        <p>Next Post</p>
-                                        <a href="#"><h4>Telescopes 101</h4></a>
-                                    </div>
-                                    <div class="arrow">
-                                        <a href="#"><span class="lnr text-white lnr-arrow-right"></span></a>
-                                    </div>
-                                    <div class="thumb">
-                                        <a href="#"><img class="img-fluid" src="img/blog/next.jpg" alt=""></a>
-                                    </div>										
-                                </div>									
-                            </div>
-                        </div>
-                        <div class="comments-area">
-                            <h4>05 Comments</h4>
-                            <div class="comment-list">
-                                <div class="single-comment justify-content-between d-flex">
-                                    <div class="user justify-content-between d-flex">
-                                        <div class="thumb">
-                                            <img src="img/blog/c1.jpg" alt="">
-                                        </div>
-                                        <div class="desc">
-                                            <h5><a href="#">Emilly Blunt</a></h5>
-                                            <p class="date">December 4, 2017 at 3:12 pm </p>
-                                            <p class="comment">
-                                                Never say goodbye till the end comes!
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="reply-btn">
-                                           <a href="" class="btn-reply text-uppercase">reply</a> 
-                                    </div>
-                                </div>
-                            </div>	
-                            <div class="comment-list left-padding">
-                                <div class="single-comment justify-content-between d-flex">
-                                    <div class="user justify-content-between d-flex">
-                                        <div class="thumb">
-                                            <img src="img/blog/c2.jpg" alt="">
-                                        </div>
-                                        <div class="desc">
-                                            <h5><a href="#">Elsie Cunningham</a></h5>
-                                            <p class="date">December 4, 2017 at 3:12 pm </p>
-                                            <p class="comment">
-                                                Never say goodbye till the end comes!
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="reply-btn">
-                                           <a href="" class="btn-reply text-uppercase">reply</a> 
-                                    </div>
-                                </div>
-                            </div>	
-                            <div class="comment-list left-padding">
-                                <div class="single-comment justify-content-between d-flex">
-                                    <div class="user justify-content-between d-flex">
-                                        <div class="thumb">
-                                            <img src="img/blog/c3.jpg" alt="">
-                                        </div>
-                                        <div class="desc">
-                                            <h5><a href="#">Annie Stephens</a></h5>
-                                            <p class="date">December 4, 2017 at 3:12 pm </p>
-                                            <p class="comment">
-                                                Never say goodbye till the end comes!
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="reply-btn">
-                                           <a href="" class="btn-reply text-uppercase">reply</a> 
-                                    </div>
-                                </div>
-                            </div>	
-                            <div class="comment-list">
-                                <div class="single-comment justify-content-between d-flex">
-                                    <div class="user justify-content-between d-flex">
-                                        <div class="thumb">
-                                            <img src="img/blog/c4.jpg" alt="">
-                                        </div>
-                                        <div class="desc">
-                                            <h5><a href="#">Maria Luna</a></h5>
-                                            <p class="date">December 4, 2017 at 3:12 pm </p>
-                                            <p class="comment">
-                                                Never say goodbye till the end comes!
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="reply-btn">
-                                           <a href="" class="btn-reply text-uppercase">reply</a> 
-                                    </div>
-                                </div>
-                            </div>	
-                            <div class="comment-list">
-                                <div class="single-comment justify-content-between d-flex">
-                                    <div class="user justify-content-between d-flex">
-                                        <div class="thumb">
-                                            <img src="img/blog/c5.jpg" alt="">
-                                        </div>
-                                        <div class="desc">
-                                            <h5><a href="#">Ina Hayes</a></h5>
-                                            <p class="date">December 4, 2017 at 3:12 pm </p>
-                                            <p class="comment">
-                                                Never say goodbye till the end comes!
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="reply-btn">
-                                           <a href="" class="btn-reply text-uppercase">reply</a> 
-                                    </div>
-                                </div>
-                            </div>	                                             				
-                        </div>
-                        <div class="comment-form">
-                            <h4>Leave a Reply</h4>
-                            <form>
-                                <div class="form-group form-inline">
-                                  <div class="form-group col-lg-6 col-md-6 name">
-                                    <input type="text" class="form-control" id="name" placeholder="Enter Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Name'">
-                                  </div>
-                                  <div class="form-group col-lg-6 col-md-6 email">
-                                    <input type="email" class="form-control" id="email" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'">
-                                  </div>										
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Subject'">
-                                </div>
-                                <div class="form-group">
-                                    <textarea class="form-control mb-10" rows="5" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
-                                </div>
-                                <a href="#" class="primary-btn submit_btn">Post Comment</a>	
-                            </form>
-                        </div>
-        			</div>
-        			<div class="col-lg-4">
-        				<div class="right_sidebar">
-        					<aside class="r_widgets news_widgets">
-        						<div class="main_title2">
-        							<h2>Most Popular News</h2>
-        						</div>
-        						<div class="choice_item">
-									<img class="img-fluid" src="img/blog/popular-post/pp-1.jpg" alt="">
+								<a href="#"><h4>老牌王國再次回歸</h4></a>
+								<p>是否會引起新的風雲？</p>
+							</div>
+						</div>
+						<div class="news_slider owl-carousel">
+							<div class="item">
+								<div class="choice_item">
+									<img src="#" alt="">
 									<div class="choice_text">
+										<a href="#"><h4>王國起手難度低，適合新手遊玩！</h4></a>
 										<div class="date">
-											<a class="gad_btn" href="#">Gadgets</a>
-											<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>March 14, 2018</a>
-											<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>05</a>
+											<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>八月 19, 2018</a>
+											<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>00</a>
 										</div>
-										<a href="#"><h4>Dealing With Technical Support with 10 Useful Tips</h4></a>
-										<p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights</p>
 									</div>
 								</div>
-       							<div class="news_slider owl-carousel">
-       								<div class="item">
-       									<div class="choice_item">
-											<img src="img/blog/popular-post/pp-2.jpg" alt="">
-											<div class="choice_text">
-												<a href="#"><h4>Dealing With Technical Support 10 with Useful Tips around</h4></a>
-												<div class="date">
-													<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>March 14, 2018</a>
-													<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>05</a>
-												</div>
-											</div>
+							</div>
+							<div class="item">
+								<div class="choice_item">
+									<img src="#" alt="">
+									<div class="choice_text">
+										<a href="#"><h4>湯米和老皮被傳出有朋友以上的關係？！</h4></a>
+										<div class="date">
+											<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>八月 19, 2018</a>
+											<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>00</a>
 										</div>
-       								</div>
-       								<div class="item">
-       									<div class="choice_item">
-											<img src="img/blog/popular-post/pp-3.jpg" alt="">
-											<div class="choice_text">
-												<a href="#"><h4>An Ugly Myspace Profile Will Sure Ruin Your Reputation</h4></a>
-												<div class="date">
-													<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>March 14, 2018</a>
-													<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>05</a>
-												</div>
-											</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="choice_item">
+									<img src="#" alt="">
+									<div class="choice_text">
+										<a href="#"><h4>湯米高富帥是否有女友？</h4></a>
+										<div class="date">
+											<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>八月 19, 2018</a>
+											<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>00</a>
 										</div>
-       								</div>
-       								<div class="item">
-       									<div class="choice_item">
-											<img src="img/blog/popular-post/pp-2.jpg" alt="">
-											<div class="choice_text">
-												<a href="#"><h4>Dealing With Technical Support 10 with Useful Tips around</h4></a>
-												<div class="date">
-													<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>March 14, 2018</a>
-													<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>05</a>
-												</div>
-											</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="choice_item">
+									<img src="#" alt="">
+									<div class="choice_text">
+										<a href="#"><h4>這個伺服器營利嗎？</h4></a>
+										<div class="date">
+											<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>八月 19, 2018</a>
+											<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>00</a>
 										</div>
-       								</div>
-       								<div class="item">
-       									<div class="choice_item">
-											<img src="img/blog/popular-post/pp-3.jpg" alt="">
-											<div class="choice_text">
-												<a href="#"><h4>An Ugly Myspace Profile Will Sure Ruin Your Reputation</h4></a>
-												<div class="date">
-													<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>March 14, 2018</a>
-													<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>05</a>
-												</div>
-											</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="choice_item">
+									<img src="#" alt="">
+									<div class="choice_text">
+										<a href="#"><h4>如果我覺得伺服器好的，可以怎樣贊助？</h4></a>
+										<div class="date">
+											<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>八月 19, 2018</a>
+											<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>00</a>
 										</div>
-       								</div>
-       								<div class="item">
-       									<div class="choice_item">
-											<img src="img/blog/popular-post/pp-2.jpg" alt="">
-											<div class="choice_text">
-												<a href="#"><h4>Dealing With Technical Support 10 with Useful Tips around</h4></a>
-												<div class="date">
-													<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>March 14, 2018</a>
-													<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>05</a>
-												</div>
-											</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="choice_item">
+									<img src="#" alt="">
+									<div class="choice_text">
+										<a href="#"><h4>細談 Minecraft 的男女比例</h4></a>
+										<div class="date">
+											<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>八月 19, 2018</a>
+											<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>00</a>
 										</div>
-       								</div>
-       								<div class="item">
-       									<div class="choice_item">
-											<img src="img/blog/popular-post/pp-3.jpg" alt="">
-											<div class="choice_text">
-												<a href="#"><h4>An Ugly Myspace Profile Will Sure Ruin Your Reputation</h4></a>
-												<div class="date">
-													<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>March 14, 2018</a>
-													<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>05</a>
-												</div>
-											</div>
-										</div>
-       								</div>
-       							</div>
-        					</aside>
-        					<aside class="r_widgets add_widgets text-center">
-        						<img class="img-fluid" src="img/blog/add-1.jpg" alt="">
-        					</aside>
-        					<aside class="r_widgets social_widgets">
-        						<div class="main_title2">
-        							<h2>Social Networks</h2>
-        						</div>
-        						<ul class="list">
-        							<li><a href="#"><i class="fa fa-facebook"></i> 983Likes <span>Like our page</span></a></li>
-        							<li><a href="#"><i class="fa fa-twitter"></i> 983Followers <span>Follow Us</span></a></li>
-        							<li><a href="#"><i class="fa fa-youtube-play"></i> 9835Subscriber <span>Subscribe</span></a></li>
-        							<li><a href="#"><i class="fa fa-vimeo"></i> 59874Subscriber <span>Subscribe</span></a></li>
-        							<li><a href="#"><i class="fa fa-pinterest"></i> 36958Followers <span>Follow Us</span></a></li>
-        							<li><a href="#"><i class="fa fa-rss"></i>RSS Subscribe <span>Subscribe</span></a></li>
-        						</ul>
-        					</aside>
-        					<aside class="r_widgets newsleter_widgets">
-        						<div class="main_title2">
-        							<h2>Newsletter</h2>
-        						</div>
-        						<div class="nsl_inner">
-        							<i class="fa fa-envelope"></i>
-        							<h4>Subscribe to our Newsletter</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua adipisicing</p>
-									<div class="form-group d-flex flex-row">
-										<div class="input-group">
-											<input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Enter your email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email'">
-										</div>
-										<a href="#" class="bbtns">Subcribe</a>
-									</div>	
-        						</div>
-        					</aside>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================End News Area =================-->
-        
-        <!--================ start footer Area  =================-->	
-        <footer class="footer-area">
-            <div class="container">
-                <div class="row f_widgets_inner">
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-footer-widget ab_widgets">
-                           <img src="img/footer-logo.png" alt=""> 
-                           <p>Technology and gadgets Adapter (MPA) is our favorite iPhone solution, since it lets you use the headphones you’re most comfortable with. It has an iPhone-compatible jack at one end and a microphone module with an Answer/End/Pause button and a female 3.5mm audio jack for connectingheadphones</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-footer-widget">
-                            <div class="f_title">
-                            	<h3>Quick Links</h3>
-                            </div>
-                            <div class="row">
-                                <div class="col-6">
-                                    <ul class="list">
-                                        <li><a href="#">Sitemaps</a></li>
-                                        <li><a href="#">Categories</a></li>
-                                        <li><a href="#">Archives</a></li>
-                                        <li><a href="#">Advertise</a></li>
-                                        <li><a href="#">Ad Choice</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-6">
-                                    <ul class="list">
-                                        <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Terms of Use</a></li>
-                                        <li><a href="#">Help Center</a></li>
-                                        <li><a href="#">Newsletters</a></li>
-                                        <li><a href="#">Feedback</a></li>
-                                    </ul>
-                                </div>										
-                            </div>							
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-footer-widget m_news_widgets">
-                            <div class="f_title">
-                            	<h3>Most Viewed News</h3>
-                            </div>
-                            <div class="m_news">
-                            	<div class="media">
-                            		<div class="d-flex">
-                            			<img src="img/product/product-13.jpg" alt="">
-                            		</div>
-                            		<div class="media-body">
-                            			<a href="#"><h4>Converter Ipod Video Taking Portable Video Viewing To A Whole Level</h4></a>
-                            			<div class="date">
-											<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>March 14, 2018</a>
-											<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>05</a>
-										</div>
-                            		</div>
-                            	</div>
-                            	<div class="media">
-                            		<div class="d-flex">
-                            			<img src="img/product/product-14.jpg" alt="">
-                            		</div>
-                            		<div class="media-body">
-                            			<a href="#"><h4>Sony Laptops Are Still Part Of The Sony Family</h4></a>
-                            			<div class="date">
-											<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>March 14, 2018</a>
-											<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>05</a>
-										</div>
-                            		</div>
-                            	</div>
-                            </div>
-                        </div>
-                    </div>	
-                </div>
-                <div class="row footer-bottom d-flex justify-content-between align-items-center">
-                   	<div class="col-lg-12">
-                   		<div class="f_boder"></div>
-                   	</div>
-                    <p class="col-lg-8 col-md-8 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    <div class="col-lg-4 col-md-4 footer-social">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-youtube-play"></i></a>
-                        <a href="#"><i class="fa fa-pinterest"></i></a>
-                        <a href="#"><i class="fa fa-rss"></i></a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-		<!--================ End footer Area  =================-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</aside>
+					<aside class="r_widgets add_widgets text-center">
+						<img class="img-fluid" src="img/features/add.jpg" alt="">
+					</aside>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--================End News Area =================-->
+
+<!--================ start footer Area  =================-->
+<footer id="footer" class="hoc clear">
+	<link href="./styles/layout.css" rel="stylesheet" type="text/css">
+	<!-- ################################################################################################ -->
+	<h3 class="heading">老皮的伺服器</h3>
+	<ul class="nospace inline pushright uppercase">
+		<li><a href="https://opserver.wahabox.com/index.html"><i class="fa fa-lg fa-home"></i></a></li>
+		<li><a href="https://opserver.wahabox.com/pages/AboutUs.html">關於我們</a></li>
+		<li><a href="https://opserver.wahabox.com/pages/More.html">了解更多</a></li>
+		<li><a href="https://opserver.wahabox.comf/English/index.html">EN</a></li>
+	</ul>
+	<ul class="faico clear">
+		<li><a class="faicon-facebook" href="https://www.facebook.com/opchanneltw/"><i class="fa fa-facebook"></i></a></li>
+		<li><a class="faicon-twitch" href="https://www.twitch.tv/mobilmobil"><i class="fa fa-twitch"></i></a></li>
+		<li><a class="faicon-youtube" href="https://www.youtube.com/user/tolocat"><i class="fa fa fa-youtube-play"></i></a></li>
+	</ul>
+	<div id="copyright">
+		<p>Copyright &copy; 2018 - All Rights Reserved - 老皮伺服器團隊</p>
+	</div>
+	<!-- ################################################################################################ -->
+</footer>
+<!--================ End footer Area  =================-->
         
         
         
