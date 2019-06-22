@@ -1,17 +1,15 @@
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family:FangSong_GB2312, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -53,25 +51,26 @@ a {
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: ##00ACEE;
+  color: #00ACEE;
   outline: none;
   text-decoration: none;
 }
 
 p {
+  font-family:FangSong_GB2312, sans-serif;
   margin-bottom: 20px;
 }
 
 h1, h2, h4, h5, h6, figure {
   color: #FFF;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family:FangSong_GB2312, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
 
 h3{
-  color: #FFFFFF;
-  font-family: "Work Sans", Arial, sans-serif;
+  color: #FFFFFF;font-family:FangSong_GB2312, sans-serif;
+
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -1597,4 +1596,4 @@ form label {
   opacity: 0;
 }
 
-/*# sourceMappingURL=style.css.map */
+
